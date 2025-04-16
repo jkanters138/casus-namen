@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Willekeurige Namen Generator</title>
+</head>
+<body>
+  <h1>Willekeurige Namen Generator</h1>
+  <div id="naam" style="font-size: 24px; margin: 20px 0;"></div>
+  <button onclick="genereerNaam()">Genereer Naam</button>
+  
+  <script>
+    // Voorbeeldlijst met namen
+    const namen = ["Alice", "Bob", "Charlie", "Daisy", "Eva"];
+    
+    // Functie die een willekeurige naam selecteert en toont
+    function genereerNaam() {
+      const randomIndex = Math.floor(Math.random() * namen.length);
+      document.getElementById('naam').textContent = namen[randomIndex];
+    }
+  </script>
+</body>
+</html>
