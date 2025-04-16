@@ -1,10 +1,9 @@
-/* style.css */
-
 body {
   background-color: #f0f8ff;
   font-family: Arial, sans-serif;
   margin: 40px;
   color: #333;
+  text-align: left;
 }
 
 h1 {
@@ -25,8 +24,8 @@ button {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  display: block;
-  margin: 0 auto;
+  display: inline-block; 
+  margin: 10px 0;
 }
 
 button:hover {
