@@ -9,13 +9,13 @@ body {
 
 h1 {
   color: #007acc;
-  text-align: center;
+  text-align: left;
 }
 
 #naam {
   font-size: 24px;
   margin: 20px 0;
-  text-align: center;
+  text-align: left;
 }
 
 button {
